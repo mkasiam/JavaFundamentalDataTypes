@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Initially git Added and new package is created for paper properties convert">
-      <change afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverterRunner.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Paper properties E1 done with Constants class and with Runner class to get the ultimate output">
+      <change afterPath="$PROJECT_DIR$/src/numberPowers/NumberPowers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="numberPowers" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -57,7 +60,20 @@
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NumberPowers">
+    <configuration name="NumberPowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numberPowers.NumberPowers" />
+      <module name="JavaFundamentalDataTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="numberPowers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaperPropertiesConverterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paperPropertiesConverter.PaperPropertiesConverterRunner" />
       <module name="JavaFundamentalDataTypes" />
@@ -73,6 +89,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberPowers" />
+        <item itemvalue="Application.PaperPropertiesConverterRunner" />
+        <item itemvalue="Application.PaperPropertiesConverterRunner" />
+        <item itemvalue="Application.PaperPropertiesConverterRunner" />
         <item itemvalue="Application.PaperPropertiesConverterRunner" />
       </list>
     </recent_temporary>
@@ -94,11 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715436850834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Paper properties E1 done with Constants class and with Runner class to get the ultimate output">
+      <option name="closed" value="true" />
+      <created>1715437963475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715437963475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initially git Added and new package is created for paper properties convert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initially git Added and new package is created for paper properties convert" />
+    <MESSAGE value="Paper properties E1 done with Constants class and with Runner class to get the ultimate output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Paper properties E1 done with Constants class and with Runner class to get the ultimate output" />
   </component>
 </project>

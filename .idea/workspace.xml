@@ -1,32 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Initially git Added and new package is created for paper properties convert">
+      <change afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverterRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paperPropertiesConverter/PaperPropertiesConverter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mkasiam"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mkasiam/JavaFundamentalDataTypes.git",
+    "accountId": "13d15839-3bdd-4063-8713-04b5be222c4b"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2gKC0NvItXIH4ZtccQU66vvqsYm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PaperPropertiesConverterRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="PaperPropertiesConverterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paperPropertiesConverter.PaperPropertiesConverterRunner" />
+      <module name="JavaFundamentalDataTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paperPropertiesConverter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PaperPropertiesConverterRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,17 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715436659058</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initially git Added and new package is created for paper properties convert">
+      <option name="closed" value="true" />
+      <created>1715436850834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715436850834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initially git Added and new package is created for paper properties convert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initially git Added and new package is created for paper properties convert" />
   </component>
 </project>

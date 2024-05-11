@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Taking Two int number from user and Done needed Calculations &amp; package and Class created for that">
-      <change afterPath="$PROJECT_DIR$/src/twoInputAndOupt/TwoInputAndEnhancedOutput.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Enhanced output Class created and Successfully shown output according to the book">
+      <change afterPath="$PROJECT_DIR$/src/meterToOthersUnit/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meterToOthersUnit/MeterToOtherUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="numberPowers" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,12 +59,25 @@
     "Application.TwoInputAndEnhancedOutput.executor": "Run",
     "Application.TwoInputAndOutput.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "features",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TwoInputAndEnhancedOutput">
+  <component name="RunManager" selected="Application.MeterToOtherUnit">
+    <configuration name="MeterToOtherUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="meterToOthersUnit.MeterToOtherUnit" />
+      <module name="JavaFundamentalDataTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meterToOthersUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberPowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="numberPowers.NumberPowers" />
       <module name="JavaFundamentalDataTypes" />
@@ -118,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeterToOtherUnit" />
         <item itemvalue="Application.TwoInputAndEnhancedOutput" />
         <item itemvalue="Application.TwoInputAndOutput" />
         <item itemvalue="Application.NumberPowers" />
-        <item itemvalue="Application.PaperPropertiesConverterRunner" />
         <item itemvalue="Application.PaperPropertiesConverterRunner" />
       </list>
     </recent_temporary>
@@ -167,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715444075860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Enhanced output Class created and Successfully shown output according to the book">
+      <option name="closed" value="true" />
+      <created>1715446437568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715446437568</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,7 +197,8 @@
     <MESSAGE value="Paper properties E1 done with Constants class and with Runner class to get the ultimate output" />
     <MESSAGE value="Number power class done" />
     <MESSAGE value="Taking Two int number from user and Done needed Calculations &amp; package and Class created for that" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taking Two int number from user and Done needed Calculations &amp; package and Class created for that" />
+    <MESSAGE value="Enhanced output Class created and Successfully shown output according to the book" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhanced output Class created and Successfully shown output according to the book" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Meter to Miles, Feet &amp; Inches conversion done">
-      <change afterPath="$PROJECT_DIR$/src/radiusToOtherProperties/RadiusToOtherProperties.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="RectangleProperties new Class Created and Logic Implemented as well as get desired output">
+      <change afterPath="$PROJECT_DIR$/src/calculateFuelCost/CalculateFuelCost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,26 +23,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="features" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mkasiam"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mkasiam&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mkasiam/JavaFundamentalDataTypes.git",
-    "accountId": "13d15839-3bdd-4063-8713-04b5be222c4b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mkasiam/JavaFundamentalDataTypes.git&quot;,
+    &quot;accountId&quot;: &quot;13d15839-3bdd-4063-8713-04b5be222c4b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2gKC0NvItXIH4ZtccQU66vvqsYm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,24 +53,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculateFuelCost.executor": "Run",
     "Application.MeterToOtherUnit.executor": "Run",
     "Application.NumberPowers.executor": "Run",
     "Application.PaperPropertiesConverterRunner.executor": "Run",
     "Application.TwoInputAndEnhancedOutput.executor": "Run",
     "Application.TwoInputAndOutput.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "features",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RadiusToOtherProperties">
-    <configuration name="MeterToOtherUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="meterToOthersUnit.MeterToOtherUnit" />
+  <component name="RunManager" selected="Application.CalculateFuelCost">
+    <configuration name="CalculateFuelCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculateFuelCost.CalculateFuelCost" />
       <module name="JavaFundamentalDataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="meterToOthersUnit.*" />
+          <option name="PATTERN" value="calculateFuelCost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadiusToOtherProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="radiusToOtherProperties.RadiusToOtherProperties" />
+    <configuration name="PaperPropertiesConverterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paperPropertiesConverter.PaperPropertiesConverterRunner" />
       <module name="JavaFundamentalDataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="radiusToOtherProperties.*" />
+          <option name="PATTERN" value="paperPropertiesConverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RadiusToOtherProperties" />
-        <item itemvalue="Application.MeterToOtherUnit" />
-        <item itemvalue="Application.TwoInputAndEnhancedOutput" />
+        <item itemvalue="Application.CalculateFuelCost" />
         <item itemvalue="Application.TwoInputAndOutput" />
+        <item itemvalue="Application.TwoInputAndEnhancedOutput" />
+        <item itemvalue="Application.PaperPropertiesConverterRunner" />
         <item itemvalue="Application.NumberPowers" />
       </list>
     </recent_temporary>
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715447407938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RectangleProperties new Class Created and Logic Implemented as well as get desired output">
+      <option name="closed" value="true" />
+      <created>1715450120872</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715450120872</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,7 +216,8 @@
     <MESSAGE value="Taking Two int number from user and Done needed Calculations &amp; package and Class created for that" />
     <MESSAGE value="Enhanced output Class created and Successfully shown output according to the book" />
     <MESSAGE value="Meter to Miles, Feet &amp; Inches conversion done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meter to Miles, Feet &amp; Inches conversion done" />
+    <MESSAGE value="RectangleProperties new Class Created and Logic Implemented as well as get desired output" />
+    <option name="LAST_COMMIT_MESSAGE" value="RectangleProperties new Class Created and Logic Implemented as well as get desired output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

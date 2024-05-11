@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Calculation for Fuel cost done">
-      <change afterPath="$PROJECT_DIR$/src/fileName/FileNameMaker.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="File Maker Class done">
+      <change afterPath="$PROJECT_DIR$/src/removeComma/RemoveComma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.MeterToOtherUnit.executor": "Run",
     "Application.NumberPowers.executor": "Run",
     "Application.PaperPropertiesConverterRunner.executor": "Run",
+    "Application.RemoveComma.executor": "Run",
     "Application.TwoInputAndEnhancedOutput.executor": "Run",
     "Application.TwoInputAndOutput.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +66,7 @@
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FileNameMaker">
+  <component name="RunManager" selected="Application.RemoveComma">
     <configuration name="CalculateFuelCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculateFuelCost.CalculateFuelCost" />
       <module name="JavaFundamentalDataTypes" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaperPropertiesConverterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paperPropertiesConverter.PaperPropertiesConverterRunner" />
+    <configuration name="RemoveComma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="removeComma.RemoveComma" />
       <module name="JavaFundamentalDataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paperPropertiesConverter.*" />
+          <option name="PATTERN" value="removeComma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveComma" />
         <item itemvalue="Application.FileNameMaker" />
         <item itemvalue="Application.CalculateFuelCost" />
         <item itemvalue="Application.TwoInputAndOutput" />
         <item itemvalue="Application.TwoInputAndEnhancedOutput" />
-        <item itemvalue="Application.PaperPropertiesConverterRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715450973460</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="File Maker Class done">
+      <option name="closed" value="true" />
+      <created>1715452451492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715452451492</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,7 +235,8 @@
     <MESSAGE value="Meter to Miles, Feet &amp; Inches conversion done" />
     <MESSAGE value="RectangleProperties new Class Created and Logic Implemented as well as get desired output" />
     <MESSAGE value="Calculation for Fuel cost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculation for Fuel cost done" />
+    <MESSAGE value="File Maker Class done" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Maker Class done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="RectangleProperties new Class Created and Logic Implemented as well as get desired output">
-      <change afterPath="$PROJECT_DIR$/src/calculateFuelCost/CalculateFuelCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Calculation for Fuel cost done">
+      <change afterPath="$PROJECT_DIR$/src/fileName/FileNameMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CalculateFuelCost.executor": "Run",
+    "Application.FileNameMaker.executor": "Run",
     "Application.MeterToOtherUnit.executor": "Run",
     "Application.NumberPowers.executor": "Run",
     "Application.PaperPropertiesConverterRunner.executor": "Run",
@@ -65,7 +65,7 @@
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalculateFuelCost">
+  <component name="RunManager" selected="Application.FileNameMaker">
     <configuration name="CalculateFuelCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculateFuelCost.CalculateFuelCost" />
       <module name="JavaFundamentalDataTypes" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numberPowers.NumberPowers" />
+    <configuration name="FileNameMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileName.FileNameMaker" />
       <module name="JavaFundamentalDataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numberPowers.*" />
+          <option name="PATTERN" value="fileName.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileNameMaker" />
         <item itemvalue="Application.CalculateFuelCost" />
         <item itemvalue="Application.TwoInputAndOutput" />
         <item itemvalue="Application.TwoInputAndEnhancedOutput" />
         <item itemvalue="Application.PaperPropertiesConverterRunner" />
-        <item itemvalue="Application.NumberPowers" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715450120872</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Calculation for Fuel cost done">
+      <option name="closed" value="true" />
+      <created>1715450973460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715450973460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +225,8 @@
     <MESSAGE value="Enhanced output Class created and Successfully shown output according to the book" />
     <MESSAGE value="Meter to Miles, Feet &amp; Inches conversion done" />
     <MESSAGE value="RectangleProperties new Class Created and Logic Implemented as well as get desired output" />
-    <option name="LAST_COMMIT_MESSAGE" value="RectangleProperties new Class Created and Logic Implemented as well as get desired output" />
+    <MESSAGE value="Calculation for Fuel cost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculation for Fuel cost done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

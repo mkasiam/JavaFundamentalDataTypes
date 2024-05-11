@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Remove Comma Class name done">
-      <change afterPath="$PROJECT_DIR$/src/ticTacToe/TicTacToeGame.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Grid line print for tic tac toe game done">
+      <change afterPath="$PROJECT_DIR$/src/breakDigit/BreakDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BreakDigit.executor": "Run",
     "Application.CalculateFuelCost.executor": "Run",
     "Application.FileNameMaker.executor": "Run",
     "Application.MeterToOtherUnit.executor": "Run",
@@ -67,7 +69,20 @@
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TicTacToeGame">
+  <component name="RunManager" selected="Application.BreakDigit">
+    <configuration name="BreakDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="breakDigit.BreakDigit" />
+      <module name="JavaFundamentalDataTypes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="breakDigit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculateFuelCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculateFuelCost.CalculateFuelCost" />
       <module name="JavaFundamentalDataTypes" />
@@ -120,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoInputAndOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoInputAndOupt.TwoInputAndOutput" />
-      <module name="JavaFundamentalDataTypes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twoInputAndOupt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreakDigit" />
         <item itemvalue="Application.TicTacToeGame" />
         <item itemvalue="Application.RemoveComma" />
         <item itemvalue="Application.FileNameMaker" />
         <item itemvalue="Application.CalculateFuelCost" />
-        <item itemvalue="Application.TwoInputAndOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715452932911</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Grid line print for tic tac toe game done">
+      <option name="closed" value="true" />
+      <created>1715454149058</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715454149058</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,7 +256,8 @@
     <MESSAGE value="Calculation for Fuel cost done" />
     <MESSAGE value="File Maker Class done" />
     <MESSAGE value="Remove Comma Class name done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Comma Class name done" />
+    <MESSAGE value="Grid line print for tic tac toe game done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid line print for tic tac toe game done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +270,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/breakDigit/BreakDigit.java</url>
+          <line>5</line>
+          <properties class="breakDigit.BreakDigit" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

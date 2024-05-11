@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Enhanced output Class created and Successfully shown output according to the book">
-      <change afterPath="$PROJECT_DIR$/src/meterToOthersUnit/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meterToOthersUnit/MeterToOtherUnit.java" afterDir="false" />
+    <list default="true" id="6fa81ebc-9e09-469b-a930-d728919d6037" name="Changes" comment="Meter to Miles, Feet &amp; Inches conversion done">
+      <change afterPath="$PROJECT_DIR$/src/radiusToOtherProperties/RadiusToOtherProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MeterToOtherUnit.executor": "Run",
     "Application.NumberPowers.executor": "Run",
     "Application.PaperPropertiesConverterRunner.executor": "Run",
     "Application.TwoInputAndEnhancedOutput.executor": "Run",
@@ -64,7 +64,7 @@
     "onboarding.tips.debug.path": "/home/mkasiam/IdeaProjects/JavaFundamentalDataTypes/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MeterToOtherUnit">
+  <component name="RunManager" selected="Application.RadiusToOtherProperties">
     <configuration name="MeterToOtherUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="meterToOthersUnit.MeterToOtherUnit" />
       <module name="JavaFundamentalDataTypes" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaperPropertiesConverterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paperPropertiesConverter.PaperPropertiesConverterRunner" />
+    <configuration name="RadiusToOtherProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="radiusToOtherProperties.RadiusToOtherProperties" />
       <module name="JavaFundamentalDataTypes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paperPropertiesConverter.*" />
+          <option name="PATTERN" value="radiusToOtherProperties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadiusToOtherProperties" />
         <item itemvalue="Application.MeterToOtherUnit" />
         <item itemvalue="Application.TwoInputAndEnhancedOutput" />
         <item itemvalue="Application.TwoInputAndOutput" />
         <item itemvalue="Application.NumberPowers" />
-        <item itemvalue="Application.PaperPropertiesConverterRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715446437568</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Meter to Miles, Feet &amp; Inches conversion done">
+      <option name="closed" value="true" />
+      <created>1715447407938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715447407938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,7 +206,8 @@
     <MESSAGE value="Number power class done" />
     <MESSAGE value="Taking Two int number from user and Done needed Calculations &amp; package and Class created for that" />
     <MESSAGE value="Enhanced output Class created and Successfully shown output according to the book" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enhanced output Class created and Successfully shown output according to the book" />
+    <MESSAGE value="Meter to Miles, Feet &amp; Inches conversion done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meter to Miles, Feet &amp; Inches conversion done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
